@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+font-family: "Merriweather", serif;;
+}
+
+/* banner section starts */
+
+.banner-container{
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image:linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.banner-content h3{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.banner-container h1{
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* discount */
+.discount-section{
+  text-align: center;
+  /* background: red; */
+  max-width: 802px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.discount-title{
+  font-size: 88px;
+  color: rgb(255, 0, 0);;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.discount-section>p{
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.categories{
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(7, 2, 17);
+  margin-bottom: 48px;
+}
+
+/* .greeting-img img{
+  border-style: outset;
+} */
+
+/* Party container */
+.party-container{
+  background-image:linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1320px;
+  min-height: 600px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.party-content{
+width: 60%;
+padding: 126px;
+}
+
+.party-content h2{
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 24px;
+
+}
+
+.party-container .party-description{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.party-container p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.party-img{
+  width: 350px;
+  height: 465px;
+  padding-left: 50px;
+}
+
+.location-container{
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  box-shadow: 0 0 11px -6px;
+}
+
+.place-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.place p{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px
+}
+
+
+.place p>span{
+  color: rgb(255, 0, 0);
+}
+
+.btn{
+  display: inline;
+}
+
+.btn button{
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-transform: uppercase;
+}
